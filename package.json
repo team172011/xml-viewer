@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  },
+
+  "scripts": {
+    "dev" : "tsc index.ts -w"
+  }
+}

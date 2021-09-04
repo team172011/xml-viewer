@@ -1,0 +1,97 @@
+.nodeDiv{
+    color: black;
+    border-style: outset;
+    border-color: #a0a0a0;
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
+    margin-right: 5%;
+    margin-left: 1%;
+}
+
+/* Style the button that is used to open and close the attributesDiv content */
+.colapseButton {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    font-weight: bold;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.colapseButton:after{
+    content: '\002B';
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .colapseButton:hover {
+    background-color: #ccc;
+}
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+  
+
+
+.attributesDiv{ 
+    padding: 0 18px;
+    display: block;
+    overflow: hidden;
+}
+
+
+.attributeHeaderParagraph{
+    color:black;
+    margin: 1px;
+}
+
+.attriubteNameParagraph{
+    color: gray;
+    margin: 1px;
+}
+
+.attributeValueParagraph{
+    color: red;
+    margin: 1px;
+}
+
+.attributesTable{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-width: thin 0 0 thin;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    table-layout: auto;
+    max-width: 100%;
+}
+
+.attributesTableCaption{
+    text-align: center;
+}
+
+.attributesTable, .attributesTh, .attributesTd, .attributesTableCaption {
+    border: 1px solid #a0a0a0;
+}
+
+.attributesTh, .attributesTd{
+    font-weight: normal;
+    text-align: left;
+    padding: 0,0;
+}
+
+.attributesTh, .attributesTableCaption {
+    background-color: #f1f3f4;
+    font-weight: 700;
+}
+
+.attributesTableCaption {
+    text-align: left;
+    color: black;
+}
